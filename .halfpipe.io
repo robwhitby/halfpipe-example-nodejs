@@ -9,9 +9,8 @@ tasks:
   image: node:9.5.0-alpine
 
 - name: deploy-cf
-  api: ((cf-api.dev))
-  org: pe
-  space: test
+  api: ((cf-api.gcp))
+  space: dev
   manifest: manifest-dev.yml
 
 - name: deploy-cf
