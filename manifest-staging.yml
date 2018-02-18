@@ -1,6 +1,6 @@
 ---
 applications:
-- name: halfpipe-example-nodejs-dev
+- name: halfpipe-example-nodejs-staging
   buildpack: https://github.com/cloudfoundry/nodejs-buildpack#v1.6.17
   command: node app.js
   memory: 50M
